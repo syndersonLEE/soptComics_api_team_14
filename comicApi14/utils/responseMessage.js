@@ -9,6 +9,7 @@ module.exports =  {
     ALREADY_USER: "이미 회원입니다.",
     NO_USER: "존재하지 않는 회원입니다.",
     MISS_MATCH_PW: "비밀번호가 맞지 않습니다.",
+    NULL_VALUE : "입력하세요",
     LOGIN_SUCCESS: "로그인 성공",
     LOGIN_FAIL: "로그인 실패",
     
@@ -22,6 +23,14 @@ module.exports =  {
 
     FAIL_ENCRYPTION: "암호화에 실패했습니다.",
 
+    USER_DB_SELECT_ERROR : "DB조회 실패",
+    MAIN_DB_SELECT_ERROR : "DB조회 실패",
+    MAIN0_SUCCESS : "메인(인기) 조회 성공",
+    MAIN1_SUCCESS : "메인(신작)) 조회 성공",
+    MAIN2_SUCCESS : "메인(완결) 조회 성공",
+
     FAIL_CSV_READ: "csv 읽기 실패",
     FAIL_CSV_WRITE: "csv 쓰기 실패",
+
+    WRITE_FLAG_VALUE : "flag값 입력하세요"
 }
